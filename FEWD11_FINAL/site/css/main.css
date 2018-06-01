@@ -1,0 +1,119 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+/******FONTS AND SIZING********/
+h1 {
+    
+}
+
+/*******HEADER AND NAV BAR******/
+header {
+    min-width: 100%;
+    min-height: 100%;
+    background: url(../img/header_bkgd_pizza.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.centered {
+    text-align: center;
+}
+
+#nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(92, 132, 89, .8);
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+nav ul li a {
+    color: #FFF;
+    padding-right: 55px;
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#title {
+    margin-top: 35%;
+    color: #FFF;
+}
+
+#title h1 {
+    font-size: 5em;
+}
+
+#title h3 {
+    font-size: 2em;
+}
+
+/******CONTAINER******/
+#container {
+    position: relative;
+    top: 110%;
+    height: auto;
+    min-height: 100%;
+    width: 940px;
+}
+
+/******FOOTER******/
+footer {
+    bottom: 0;
+    top: 120%;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #5C8459;
+    color: #FFF;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+}
+
+.foot ul {
+    list-style-type: none;
+}
+
+.foot ul li {
+    padding-bottom: 15px;
+}
+
+.foot ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.foot ul li a:hover {
+    color: black;
+}
+
+.foot-location {
+    line-height: 1;
+    margin-top: 10px;
+}
+
+/******BUTTONS******/
+
